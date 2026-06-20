@@ -27,7 +27,7 @@ export default function Home() {
   const [cardCvv, setCardCvv] = useState("");
 
   useEffect(() => {
-    fetch("https://e-commerce-store-gear-backend.onrender.com/api/products/")
+    fetch("hhttp://127.0.0.1:8000/api/products/")
       .then((response) => response.json())
       .then((data) => setProducts(data))
       .catch((error) => console.error("Error fetching products:", error));
@@ -110,7 +110,7 @@ export default function Home() {
     const endpoint = isRegistering ? "register/" : "login/";
     const payload = isRegistering ? { username, email, password } : { username, password };
     try {
-      const response = await fetch(`https://e-commerce-store-gear-backend.onrender.com/api/${endpoint}`, {
+      const response = await fetch(`http://127.0.0.1:8000/api/${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -137,7 +137,7 @@ export default function Home() {
     setProductReviews([]); 
     setReviewRating(5); 
     try {
-      const response = await fetch(`https://e-commerce-store-gear-backend.onrender.com/api/products/${product.id}/reviews/`);
+      const response = await fetch(`http://127.0.0.1:8000/api/products/${product.id}/reviews/`);
       if (response.ok) {
         const data = await response.json();
         setProductReviews(data);
@@ -149,7 +149,7 @@ export default function Home() {
     e.preventDefault();
     if (!reviewText.trim()) return;
     try {
-      const response = await fetch(`https://e-commerce-store-gear-backend.onrender.com/api/products/${selectedProduct.id}/reviews/`, {
+      const response = await fetch(`http://127.0.0.1:8000/api/products/${selectedProduct.id}/reviews/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 

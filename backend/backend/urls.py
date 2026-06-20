@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from rest_framework.authtoken.views import obtain_auth_token
-from backend.store import views
+from store import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),

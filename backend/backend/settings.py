@@ -121,7 +121,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 CORS_ALLOWED_ORIGINS = [
-    "https://https://vercel.com/kushagra061310s-projects/code-alpha-e-commerce-store.vercel.app", 
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://code-alpha-e-commerce-store.vercel.app" 
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
