@@ -51,27 +51,30 @@ cd backend
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
-
+```
 
 The backend API will run at: http://127.0.0.1:8000/api/products/
 
 ### 2. Start the Frontend Client (Terminal 2)
 Open a fresh terminal, navigate into the frontend directory, and start the Next.js app.
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 The frontend interface will run at: http://localhost:3000
+
 
 🧪 Testing the Integration
 To test the full-stack connection locally:
 
-Go to http://127.0.0.1:8000/admin/ and log in to the Django dashboard.
+Go to `http://127.0.0.1:8000/admin/` and log in to the Django dashboard.
 
 Add a new product to the database and save it.
 
-Refresh http://localhost:3000 to see the new product instantly rendered on the UI via the API fetch.
+Refresh `http://localhost:3000` to see the new product instantly rendered on the UI via the API fetch.
 
 ---
 
