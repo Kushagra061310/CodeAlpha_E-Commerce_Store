@@ -1,56 +1,96 @@
-# CodeAlpha E-Commerce Store
+# 🛒 CodeAlpha E-Commerce Store
 
 A full-stack e-commerce web application featuring a dynamic client-side interface and a robust RESTful API backend. This project was developed as part of the CodeAlpha internship program.
 
 **Author:** Kushagra Goyal  
-**Status:** Completed & Functional (Local Environment)
+**Status:** Core Backend & Frontend Integration Completed
 
 ---
 
-## 🛠️ Tech Stack
+## 📺 Project Demo
+*Because the full demonstration video exceeds GitHub's file size limits, it is hosted externally. Please watch the demo below to see the live integration between the Next.js frontend and Django backend:*
 
-**Frontend Interface**
-* Next.js
-* Tailwind CSS
-* TypeScript / JavaScript
-
-**Backend Server & API**
-* Python 3
-* Django & Django REST Framework (DRF)
-* SQLite (Relational Database)
-* django-cors-headers (Cross-Origin Resource Sharing)
+**👉 [CLICK HERE TO WATCH THE DEMO VIDEO] (Paste your YouTube/Google Drive link here)**
 
 ---
 
-## ✨ Key Features
+## 🛠️ Tools & Tech Stack
 
-* **Dynamic Rendering:** Products are fetched from the backend API and rendered instantly on the client UI.
-* **RESTful API Architecture:** Clean, structured endpoints for frontend-backend communication.
-* **Backend Admin Panel:** Secure Django interface for adding, updating, and removing products from the database.
-* **Responsive Design:** Optimized layout utilizing Tailwind CSS for various screen sizes.
+### Frontend Client
+* **Framework:** Next.js
+* **Styling:** Tailwind CSS
+* **Language:** TypeScript / JavaScript
+
+### Backend API & Database
+* **Framework:** Django & Django REST Framework (DRF)
+* **Language:** Python 3
+* **Database:** SQLite (Relational Database)
+* **Middleware:** django-cors-headers (For secure cross-origin resource sharing)
 
 ---
 
-## 🚀 Local Setup Instructions
+## ✨ Features Implemented So Far
 
-To run this project on your local machine, you will need two separate terminal windows—one for the backend server and one for the frontend client.
+1. **RESTful API Architecture:** Configured clean, structured JSON endpoints (`/api/products/`) to serve database content to the client.
+2. **Dynamic Client Rendering:** The Next.js frontend successfully fetches data from the Django API and renders the products in real-time.
+3. **Database Management:** Configured the secure Django Admin panel to easily add, update, and manage product inventory.
+4. **CORS Configuration:** Successfully bridged the `localhost:3000` (Frontend) and `127.0.0.1:8000` (Backend) ports to allow seamless local communication.
+5. **Responsive UI:** Built a clean, modern, and responsive user interface utilizing Tailwind CSS utility classes.
 
-### Prerequisites
-* Python 3.x installed
-* Node.js and npm installed
+---
 
-### 1. Backend Setup (Terminal 1)
-Navigate to the backend directory, activate the virtual environment, and start the Django server:
+## 🚀 Local Setup & Installation
+
+To run this project on your local machine, you will need two separate terminal windows running simultaneously.
+
+### 1. Start the Backend API (Terminal 1)
+Navigate into the backend directory, turn on your virtual environment, and start the server.
 
 ```bash
-# Move into the backend folder
 cd backend
-
-# Turn on the virtual environment (Windows)
 .\venv\Scripts\activate
-
-# Install the required dependencies
 pip install -r requirements.txt
-
-# Start the Django development server
 python manage.py runserver
+
+The backend API will run at: http://127.0.0.1:8000/api/products/
+
+### 2. Start the Frontend Client (Terminal 2)
+Open a fresh terminal, navigate into the frontend directory, and start the Next.js app.
+
+cd frontend
+npm install
+npm run dev
+
+The frontend interface will run at: http://localhost:3000
+
+🧪 Testing the Integration
+To test the full-stack connection locally:
+
+Go to http://127.0.0.1:8000/admin/ and log in to the Django dashboard.
+
+Add a new product to the database and save it.
+
+Refresh http://localhost:3000 to see the new product instantly rendered on the UI via the API fetch.
+
+---
+
+## 🔮 Future Enhancements
+
+While the core integration is complete, planned future updates for this application include:
+* **User Authentication:** Secure login and registration utilizing JWT tokens.
+* **Cart State Management:** Implementing a global cart state using React Context or Redux.
+* **Payment Integration:** Connecting a secure payment gateway (like Stripe or Razorpay) for checkout processing.
+
+---
+
+## 🤝 Acknowledgments
+
+This full-stack application was developed as a project for the **CodeAlpha** internship program. It served as an excellent opportunity to bridge modern frontend frameworks with robust backend architectures.
+
+---
+
+## 📬 Contact
+
+**Kushagra Goyal** * **LinkedIn:** https://www.linkedin.com/in/kushagra-goyal-03287737b/
+* **GitHub:** [github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+* **Email:** gkushagra905@gmail.com
