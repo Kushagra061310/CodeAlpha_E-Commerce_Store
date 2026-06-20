@@ -10,7 +10,7 @@ A full-stack e-commerce web application featuring a dynamic client-side interfac
 ## 📺 Project Demo
 *Because the full demonstration video exceeds GitHub's file size limits, it is hosted externally. Please watch the demo below to see the live integration between the Next.js frontend and Django backend:*
 
-**👉 [CLICK HERE TO WATCH THE DEMO VIDEO] (Paste your YouTube/Google Drive link here)**
+**👉 "C:\Users\Asus\Downloads\E-Commerce store live demonstration video (1).mp4"**
 
 ---
 
@@ -66,8 +66,7 @@ npm run dev
 
 The frontend interface will run at: http://localhost:3000
 
-
-🧪 Testing the Integration
+##🧪 Testing the Integration
 To test the full-stack connection locally:
 
 Go to `http://127.0.0.1:8000/admin/` and log in to the Django dashboard.
@@ -95,6 +94,7 @@ This full-stack application was developed as a project for the **CodeAlpha** int
 
 ## 📬 Contact
 
-**Kushagra Goyal** * **LinkedIn:** https://www.linkedin.com/in/kushagra-goyal-03287737b/
+**Kushagra Goyal** 
+* **LinkedIn:** https://www.linkedin.com/in/kushagra-goyal-03287737b/
 * **GitHub:** https://github.com/Kushagra061310
 * **Email:** gkushagra905@gmail.com
