@@ -52,6 +52,10 @@ cd backend
 pip install -r requirements.txt
 python manage.py runserver
 
+
+
+
+
 The backend API will run at: http://127.0.0.1:8000/api/products/
 
 ### 2. Start the Frontend Client (Terminal 2)
@@ -92,5 +96,5 @@ This full-stack application was developed as a project for the **CodeAlpha** int
 ## 📬 Contact
 
 **Kushagra Goyal** * **LinkedIn:** https://www.linkedin.com/in/kushagra-goyal-03287737b/
-* **GitHub:** [github.com/YOUR-USERNAME](https://github.com/YOUR-USERNAME)
+* **GitHub:** https://github.com/Kushagra061310
 * **Email:** gkushagra905@gmail.com
