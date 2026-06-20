@@ -66,7 +66,7 @@ npm run dev
 
 The frontend interface will run at: http://localhost:3000
 
-##🧪 Testing the Integration
+## 🧪 Testing the Integration
 To test the full-stack connection locally:
 
 Go to `http://127.0.0.1:8000/admin/` and log in to the Django dashboard.
