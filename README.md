@@ -10,7 +10,7 @@ A full-stack e-commerce web application featuring a dynamic client-side interfac
 ## 📺 Project Demo
 *Because the full demonstration video exceeds GitHub's file size limits, it is hosted externally. Please watch the demo below to see the live integration between the Next.js frontend and Django backend:*
 
-**👉 "C:\Users\Asus\Downloads\E-Commerce store live demonstration video (1).mp4"**
+**👉 https://1drv.ms/v/c/3e4b2ce72f22119d/IQCTTQx72cacTImnNUzVj2KDAd1mhXvAFHKAzHjtchZwl2Q?e=TmDXQf**
 
 ---
 
