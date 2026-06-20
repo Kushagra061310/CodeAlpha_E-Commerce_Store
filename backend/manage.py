@@ -2,6 +2,12 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import os
+from django.core.management import execute_from_command_line
+
+# Force migration on startup
+if 'runserver' not in os.sys.argv:
+    execute_from_command_line(['manage.py', 'migrate'])
 
 
 def main():
