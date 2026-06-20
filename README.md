@@ -43,7 +43,7 @@ A full-stack e-commerce web application featuring a dynamic client-side interfac
 
 To run this project on your local machine, you will need two separate terminal windows running simultaneously.
 
-### 1. Start the Backend API (Terminal 1)
+1. Start the Backend API (Terminal 1)
 Navigate into the backend directory, turn on your virtual environment, and start the server.
 
 ```bash
@@ -51,9 +51,6 @@ cd backend
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
-
-
-
 
 
 The backend API will run at: http://127.0.0.1:8000/api/products/
